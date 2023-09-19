@@ -1,11 +1,4 @@
 spring:
-  cloud:
-    config:
-      label: main
-  application:
-    name: user-operations
-  profiles:
-    active: dev
   datasource:
     url: jdbc:postgresql://localhost:5432/postgres
     driverClassName: org.postgresql.Driver
