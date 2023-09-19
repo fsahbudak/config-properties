@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: user-operations
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    driverClassName: org.postgresql.Driver
+    username: postgres
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+liquibase:
+  change-log: classpath:/db/changelog/db.changelog-master.yaml
+server:
+  port: 8081
+
+logging:
+  level:
+    liquibase: info
+    org.springframework: info
