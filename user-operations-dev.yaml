@@ -1,4 +1,7 @@
 spring:
+  cloud:
+    config:
+      label: main
   application:
     name: user-operations
   profiles:
