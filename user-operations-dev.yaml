@@ -16,7 +16,7 @@ spring:
       client:
         registration:
           keycloak:
-            client-id: login-app
+            client-id: login-user-app
             authorization-grant-type: authorization_code
             scope: openid 
         provider:
