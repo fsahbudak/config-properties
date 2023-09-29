@@ -31,5 +31,5 @@ server:
 
 logging:
   level:
-    liquibase: info
+    liquibase: debug
     org.springframework: info
