@@ -22,6 +22,7 @@ spring:
         provider:
           keycloak:
             issuer-uri: http://localhost:8080/realms/SpringBootKeycloak
+            use-resource-role-mappings: false
         user-name-attribute: preferred_username     
 liquibase:
   change-log: classpath:/db/changelog/db.changelog-master.yaml
