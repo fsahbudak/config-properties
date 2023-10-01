@@ -31,5 +31,9 @@ server:
 
 logging:
   level:
+    org:
+      hibernate:
+        SQL: DEBUG  
+      springframework: info  
     liquibase: debug
-    org.springframework: info
+    
